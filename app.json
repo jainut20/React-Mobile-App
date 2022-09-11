@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "Lens-mobile-app",
+    "slug": "Lens-mobile-app",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "Lens-mobile-app"
+}
