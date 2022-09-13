@@ -6,19 +6,40 @@
     "start": "expo start --dev-client",
     "android": "expo run:android",
     "ios": "expo run:ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "postinstall": "npx jetify"
   },
   "dependencies": {
+    "@react-native-community/masked-view": "*",
+    "@react-navigation/native": "*",
+    "@react-navigation/stack": "*",
+    "deprecated-react-native-prop-types": "^2.3.0",
     "expo": "~46.0.9",
     "expo-splash-screen": "~0.16.2",
     "expo-status-bar": "~1.4.0",
     "react": "18.0.0",
     "react-dom": "18.0.0",
     "react-native": "0.69.5",
+    "react-native-gesture-handler": "~1.8.0",
+    "react-native-paper": "^4.4.1",
+    "react-native-reanimated": "^2.10.0",
+    "react-native-safe-area-context": "3.1.9",
+    "react-native-screens": "*",
+    "react-native-status-bar-height": "^2.6.0",
     "react-native-web": "~0.18.7"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "babel-eslint": "*",
+    "eslint": "*",
+    "eslint-config-airbnb": "*",
+    "eslint-config-prettier": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-jsx-a11y": "*",
+    "eslint-plugin-prettier": "*",
+    "eslint-plugin-react": "*",
+    "jetifier": "^2.0.0",
+    "prettier": "*"
   },
   "private": true
 }
